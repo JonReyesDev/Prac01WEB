@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="agua, vapor, solido">
     <meta name="description" content="Ciclo del agua">
+    <link rel="stylesheet" href="/css/estilos.css">
     <title>CICLO DEL AGUA</title>
 </head>
 <body>
-    <header>
-       <CENter> <h1>CICLO DEL AGUA</h1></CENter>
-    </header>
+    <div id="contenedor">
+        <header>
+            <div id="encabezado">
+                <CENter> <h1>CICLO DEL AGUA</h1></CENter>
+            </div>
+        </header>
     
-    <nav>
+    <nav id="menu">
         <ul>
             <li><a href="gmail.com"> Correo electronico</a></li>
             <li><a href="noticias.com"> Noticias</a></li>
@@ -20,51 +24,51 @@
         </ul>
     </nav>
     
-    <section>
+    <section id="contenido">
         <article>
-            <h2>El ciclo del agua</h2>
-            <p>El ciclo del agua se impulsa por la energía solar. 
+            <h2 class="encabezado-articulo">El ciclo del agua</h2>
+            <p class="texto">El ciclo del agua se impulsa por la energía solar. 
                 El sol calienta la superficie del océano y otras aguas
                 superficiales, lo que evapora el agua líquida y su sublima el
                 hielo convirtiéndolo directamente de sólido a gas.
             </p>
             <picture>
-                <img src="/img/ciclo.jpeg" alt="Ciclo del agua">
+                <img class="img" src="/img/ciclo.jpeg" alt="Ciclo del agua">
             </picture>
             <time datetime="2023-09-08"></time>
-            <small>8 de septiembre de 2023</small>
+            <small style="display: block;margin: 1em;font-style: italic ;color: #424242cd;padding-bottom: 5px 25px;">8 de septiembre de 2023</small>
         </article>
         
         <article>
-            <h2>Calentamiento global</h2>
-            <p> 
+            <h2 class="encabezado-articulo">Calentamiento global</h2>
+            <p class="texto"> 
                 El Calentamiento global se construye por la absorción de la energía solar por parte de la tierra. 
                 La tierra al calentarse desprende calor a la atmósfera en forma de rayos infrarrojos. 
                 Sin embargo parte de este calor vuelve a ser retenido a la superficie terrestre
                 y la consecuencia es el recalentamiento de la misma.
             </p>
             <picture>
-                <img src="/img/calentamiento.jpeg" alt="Calentamiento global">
+                <img class="img" src="/img/calentamiento.jpeg" alt="Calentamiento global">
             </picture>
             <time datetime="2023-09-09"></time>
-            <small>9 de septiembre de 2023</small>
-    </article>
+            <small style="display: block;margin: 1em;font-style: italic ;color: #424242cd;padding-bottom: 5px 25px;">9 de septiembre de 2023</small>
+        </article>
     </section>
 
-    <aside>
+    <aside id="fueraSeccion">
         <header>
-        <h2>Otras opciones</h2>
-            <nav>
-                <ul>
-                    <li><a href="Afectaciones.html">Afectaciones</a></li>
-                    <li><a href="Problemas.html">Problemas</a></li>
-                    <li><a href="Quehacer.html">¿Que hacer?</a></li>                
-                </ul>
-            </nav>
+        <h2 class="encabezado-aside">Otras opciones</h2>
+        <nav>
+            <ul>
+                <li><a href="Afectaciones.html">Afectaciones</a></li>
+                <li><a href="Problemas.html">Problemas</a></li>
+                <li><a href="Quehacer.html">¿Que hacer?</a></li>                
+            </ul>
+        </nav>
         </header>
     </aside>
 
-    <footer>
+    <footer id="pie">
         <hr>
         <h3>Autor Jonathan Alexis Reyes Lizarraga</h3>
     </footer>
