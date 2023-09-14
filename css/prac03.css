@@ -10,6 +10,7 @@
 body {
     background-color: #f1ecea;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=6859&resolucion=2560x1440.jpg);
 }
 
 /*Selector de Clases*/
@@ -19,30 +20,37 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding: 5px 25px;
-    color: black;
+    color: rgb(255, 255, 255);
+
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-between; /* Espacio entre las imágenes */
+    align-items: center; /* Alineación vertical al centro */
+    padding: 20px; 
 
 }
 
 .img{
-    width: 100px;
-    border-radius: 5px;
-    justify-items: center;
+   max-width: 33%; /* Cada imagen ocupa un tercio del contenedor */
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor sin distorsionar la proporción */
+    height: auto;
 }
 
 .encabezado-articulo{
-    padding: 10px;
+    padding: 5px;
     text-align: center;
-    background-color: rgb(83, 152, 87);
     color: rgb(255, 255, 255);
-    margin: 1em 2em;
+    margin: 1em ;
 }
 
 .encabezado-aside{
     padding: 10px 10px;
     text-align: center;
-    background-color: rgb(89, 161, 81);
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 1em 2em;
+    font-size: 25px;
 }
 
 .menu-aside{
@@ -53,16 +61,13 @@ body {
 }
 
 .lista-aside{
-    padding: 10px;
-
+    padding: 1px;
 }
 
 .lista-aside li{
     display: flex;
-    text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    padding: 0 2px;
+    font-size: 23px;
     list-style: square;
     color:#000;
 
@@ -76,37 +81,33 @@ body {
     background-color: #dee0b7;
     max-width: 0 auto;
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 #encabezado{
-    width: 15%;
+    height: 15%;
     background-color: #3a251c;
-    margin: 1em;
-    border-radius: 5px;
-    padding: 0 50px;
+    color: white;
 }
 
 #menu{
     height: 5%;
     background-color: #b46424;
-    margin: 1em;
-    border-radius: 5px;
 }
 
 #Seccion{
-    height: 75%;
+    height: 80%;
     width: 64%;
     background-color: #362f2f;
-    margin: 0.5em;
     display: inline-block;
     border-radius: 5px;
     text-align: center;
 }
 
-#aside{
-    height: 75%;
+#fueraSeccion{
+    height: 80%;
     width: 35%;
-    margin: 0.5em;
+    background-color: #b58c7c;
     display: inline-block;
     vertical-align: top;
     border-radius: 5px;
@@ -115,11 +116,8 @@ body {
 
 #pie{
     height: 10%;
-    background-color: #b5bf9a;
-    margin: 1.5em;
+    background-color:  #3a251c;
     text-align: center;
-    padding: 5px;
-
 }
 
 #pie h4{
@@ -137,8 +135,8 @@ ul{
 
 li{
     display: inline;
-    padding: 10px 30px;
-    margin: 3em;
+    padding: 2px;
+    margin: 10px;
 }
 
 li a:hover{
