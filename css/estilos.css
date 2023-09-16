@@ -97,7 +97,7 @@ body {
 }
 
 #contenido{
-    height: 75%;
+    height: 73%;
     width: 58%;
     background-color: #b5bf9a;
     margin: 0.5em;
@@ -107,22 +107,21 @@ body {
 }
 
 #fueraSeccion{
-    height: 75%;
+    height: 40%;
     width: 35%;
     margin: 0.5em;
     display: inline-block;
     vertical-align: top;
     border-radius: 5px;
+    background-color:#c8dd96;
 
 }
 
 #pie{
-    height: 10%;
+    height: 5%;
     background-color: #b5bf9a;
-    margin: 1.5em;
     text-align: center;
     padding: 5px;
-
 }
 
 #pie h4{
