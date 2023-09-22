@@ -6,11 +6,12 @@ body {
 }
 
 .texto{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rocket';
     color: white;
     font-size: 22px;
-    padding: 15px;
-    margin: 10px;
+    padding: 12px;
+    margin: 1px;
+    font-weight: bold;
 }
 
 .head_aside{
@@ -27,7 +28,7 @@ body {
 
 .foInicio{
     width: 100%;
-    height: 12px;
+    height: 9px;
     background-color: white;
 }
 
@@ -52,6 +53,12 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.himg{
+    height: 70px;
+    width: 70px;
+    margin-top: 0.3cm;
+}
+
 .hdec{
     width: 100%;
     height: 12px;
@@ -61,7 +68,7 @@ body {
 .news{
     width: 16%;
     height: 701px;
-    background-color: rgba(8, 8, 8, 0.815);
+    background-color: rgba(8, 8, 8, 0.921);
     border-color: white;
     margin: 1px;
 }
@@ -84,36 +91,159 @@ body {
 
 .section_comp{
     width: 1290px;
-    height: 890px;
-    background-color: rgba(23, 24, 23, 0.788);
+    height: 900px;
+    background-color: rgba(23, 24, 23, 0.847);
     margin-left: 302px;
-    margin-top: 100px;
+    margin-top: 90px;
     position: absolute;
 }
 
 .aside-foot{
     width: 300px;
     height: 300px;
-    background-color: green;
+    background-color: rgb(0, 0, 0);
+    margin: 1px;
+    align-items: center;
 }
 
 .aside_comp{
-    width: 295px;
-    height: 980px;
-    background-color: rgba(255, 5, 5, 0.418);
+    width: 298px;
+    height: 1005px;
+    background-color: rgb(37, 36, 36);
     border-color: white;
     position: absolute;
     margin-left: 1590px;
-    margin-top: 100px;
+    margin-top: 90px;
+}
+
+.img-aside{
+    width: 290px;
+    height: 281px;
 }
 
 .section-foot{
     width: 1289px;
     height: 90px;
-    background-color: rgba(94, 99, 28, 0.692);
+    background-color: rgb(0, 0, 0);
     margin-left: 302px;
     margin-top: 990px;
     position: absolute;
+}
+
+.secfoot-img{
+    width: 70px;
+    height: 70px;
+    margin-top: 0.2cm;
+    margin-right: 1cm;
+}
+
+.secfoot-img2{
+    width: 80px;
+    height: 80px;
+    margin-left: 1cm;
+    margin-top: 0.6cm;
+}
+
+.secfoot-img3{
+    width: 60px;
+    height: 60px;
+    margin-top: 0.2cm;
+    margin-left: 1cm;
+}
+
+
+@font-face {
+    font-family: 'Rocket';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('/fonts/TrueType/Jost-200-ThinItalic.ttf') format(TrueType);
+}
+
+@font-face {
+    font-family: 'Rocket2';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('/fonts/TrueType/Jost-500-Medium.ttf') format(TrueType);
+}
+
+@font-face {
+    font-family: 'Rocket3';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('/fonts/OpenType/Jost-300-Light.otf') format(TrueType);
+}
+
+@font-face {
+    font-family: 'Rocket4';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('/fonts/OpenType/Jost-300-LightItalic.otf') format(TrueType);
+}
+
+.textComp{
+    font-family: 'Rocket';
+    font-size: 32px;
+    color: white;
+    text-align: left;
+    padding: 0.8cm;
+    margin: 0;
+}
+
+.textComp-aside{
+    font-family: 'Rocket2';
+    font-size: 43px;
+    color: white;
+    padding: 0.4cm;
+    margin: 0;
+    margin-top: 0.7cm;
+    text-align: center;
+}
+
+.txtaside{
+    font-family: 'Rocket3';
+    font-size: 22px;
+    color: white;
+    padding: 0.4cm;
+    margin: 0;
+    margin-top: 0.6cm;
+    text-align: center;
+}
+
+.titleaside{
+    font-family: 'Rocket3';
+    font-size: 28px;
+    color: white;
+    padding: 0.4cm;
+    margin: 0;
+    margin-top: 0.4cm;
+    text-align: center;
+}
+
+.txtbottom_aside{
+    font-family: 'Rocket3';
+    font-size: 22px;
+    color: yellow;
+    padding: 0.2cm;
+    margin: 0;
+    margin-top: 0.2cm;
+    text-align: center;
+}
+
+.txtbottom_aside2{
+    font-family: 'Rocket4';
+    font-size: 18px;
+    color: white;
+    padding: 0.4cm;
+    margin: 0;
+    margin-top: 0.1cm;
+    text-align: center;
+}
+
+.img-aside2{
+    height: 190px;
+    width: 190px;
+    border: 1px solid white;
+    margin: 0px 10px;
 }
 
 .FlexContainer2{
@@ -201,7 +331,7 @@ body {
 
 .footer{
         height: 60px;
-        background-color: rgba(32, 32, 32, 0.823);
+        background-color: rgba(0, 0, 0, 0.823);
     }
 
  img:hover{
@@ -316,6 +446,12 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
+
+.a:hover{
+    background-color: red;
+}
+
+
 @media screen and (max-width: 768px){
     .slider{
         height: 400px;
