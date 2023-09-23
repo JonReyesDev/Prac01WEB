@@ -1,136 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/prac05.css">
-    <title>FORMULARIO DE DATOS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/prac05.css">
+  <title>Formulario de Datos</title>
 </head>
 <body>
-    <div class="contenedor">
-        <form action="https://formsumit.co/jonath.lt3@gmail" method="post">
-    
-            <header>
-                <h1>Formulario</h1>
-            </header>
-            <div class="nombre">
-                <label for="Nombre">Nombre</label>
-                <input type="text" id="nombre" name="Nombre" placeholder="Escribe tu nombre" required>
-                <br>
-            </div>
-               
-            <div class="fechaNacimiento">
-                <label for="FechaNac">Fecha de nacimiento</label>
-                <input type="date" name="fecha" id="fechaNacimiento" name="fechaNacimiento" required>
-                <br>
-    
-            </div>
-            
-            <div class="sexo">
-                <label for="Sexo">Sexo</label>
-                <li>
-                    <input type="radio" name="sexoM" id="masc" value="Masculino">
-                    <label for="Masculino">Masculino</label>
-                    <input type="radio" name="sexoF" id="fem" value="Femenino">
-                    <label for="Femenino">Femenino</label>
-                </li>
-            </div>
-    
-            <div class="lugarNac">
-                <label for="LugarNac">Lugar de Nacimiento</label>
-                <select name="lugarNac" id="lugarNac">
-                    <option value="Escuinapa">Escuinapa</option>
-                    <option value="Rosario">Rosario</option>
-                    <option value="Mazatlan">Mazatlan</option>
-                    <option value="La Cruz">La Cruz de Elota</option>
-                    <option value="Culiacan">Culiacan</option>
-                    <option value="Guamuchil">Guamuchil</option>
-                    <option value="Guasave">Guasave</option>
-                    <option value="Los Mochis">Los Mochis</option>
-                </select>
-            </div>
-            
-            <div class="poblacion">
-                <label for="Poblacion">Poblacion</label>
-                <input type="text" name="poblacion" id="poblacion" required>
-            </div>
-            
-            <br>
-            <br>
-            
-            <div class="idiomas">
-                <li>
-                    <label for="idiomas">idiomas</label>
-                    <br>
-            
-                    <label for="Español">Español como primer lenguaje</label>
-                    <input type="checkbox" name="español" id="español">
-                    
-                    <label for="Ingles">Ingles</label>
-                    <input type="checkbox" name="ingles" id="ingles">
-            
-                    <label for="Frances">Frances</label>
-                    <input type="checkbox" name="frances" id="frances">
-            
-                    <label for="Otro">Otro idioma</label>
-                    <input type="checkbox" name="otro" id="otro">
-                    <br>
+  <div class="contenedor">
+    <form action="https://formsubmit.co/angelquimorita@gmail.com" method="post">
+  
+      <header>
+        <h1>Formulario</h1>
+      </header>
+  
+      <div class="nombre">
+        <label for="nombre">Nombre</label>
+        <input type="text" nombre="nombre" id="nombre" placeholder="Escribr tu nombre" required>
+      </div>
+  
+      <div class="fechaNacimiento">
+        <label for="fechaNacimiento">Fecha de Nacimiento</label>
+        <input type="date" name="fechaNacimiento" id="fechaNacimiento" required>
+      </div>
+  
+      <div class="sexo">
+        <label for="sexo">Sexo</label>
+        <li>
+          <input type="radio" name="sexo" id="sexo" value="masculino">
+          <label for="Masculino">Masculino</label>
+          <input type="radio" name="sexo" id="sexo" value="femenino">
+          <label for="Femenino">Femenino</label>
+        </li>
+      </div>
+  
+      <div class="lugarNacimiento">
+        <label for="lugarNacimiento">Lugar de Nacimiento</label> <br>
+        <select name="lugarNacimiento" id="lugarNacimiento">
+          <option value="escuinapa">Escuinapa</option>
+          <option value="rosario">Rosario</option>
+          <option value="mazatlan">Mazatlán</option>
+          <option value="laCruz">La Cruz de Elota</option>
+          <option value="culiacan">Culiacán</option>
+          <option value="guamuchil">Guamuchil</option>
+          <option value="guasave">Guasave</option>
+          <option value="losMochis">Los Mochis</option>
+        </select>
+      </div>
+      
+      <div class="poblacion">
+        <label for="poblacion">Población</label> <br>
+        <input type="text" name="poblacion" id="poblacion" required> 
+      </div>
+  
+      <div class="idiomas">
+        <label for="idiomas">Idiomas</label>
+        <li>
+          <input type="checkbox" name="español" id="español"> 
+          <label for="español">Español</label>
+      
+          <input type="checkbox" name="ingles" id="ingles"> 
+          <label for="ingles">Inglés</label>
+      
+          <input type="checkbox" name="Frances" id="frances"> 
+          <label for="frances">Francés</label>
+      
+          <input type="checkbox" name="Otro" id="otro"> 
+          <label for="otro">Otro</label>
+        </li>
+      </div>
 
-                </li>
-            </div>
-            <br>
-
-            <div class="correo">
-                <label for="email">Correo electronico</label>
-                <input type="email" name="correo" id="correo" placeholder="Escribir su correo" required>
-                
-            </div>
-
-            <div class="egresoPrimaria">
-                <label for="MesAñoEgreso">Mes y Año de egreso de su educacion primaria</label>
-                <input type="month" name="mesaño" id="mesaño">
-                <br>
-                <br><br><br>
-            </div>
-            
-            <div class="habitos">
-                <label for="Habitos">Habitos</label>
-                <br>
-                <textarea name="habitos" id="habitos" cols="30" rows="10" required>Escribir aqui la lista de Habitos</textarea>
-            </div>
-            
-            <div class="ingresos">
-                <label for="ingresos">Nivel de ingresos</label>
-                <input type="range" name="ingresos" id="ingresos" list="listaIngresos" min="5000" max="50000" value="2500">
+      
+      <div class="correo">
+        <label for="email">Correo electrónico</label>
+        <input type="email" name="correo" id="correo" placeholder="Escribe tu correo" required> 
+      </div>
+      
+      <div class="egresoPrimaria">
+        <label for="mesAñoEgreso">Mes y Año de Egreso de su educación primaria</label>
+        <input type="month" name="mesAñoEgreso" id="mesAñoEgreso">  
+      </div>
+  
+      <div class="habitos">
+        <label for="habitos">Hábitos Personales</label>
+        <textarea name="habitos" id="habitos" cols="30" rows="10" required>Escribir aquí la lista de hábitos personales</textarea>
+      </div>
+  
+      <div class="ingresos">
+        <label for="ingresos">Nivel de Ingresos</label>
+        <input type="range" name="ingresos" id="ingresos" 
+              list="listaIngresos" min="5000" max="50000">
         
-                <datalist id="listaIngresos">
-                    <option value="5000">5000</option>
-                    <option value="10000">10000</option>
-                    <option value="15000">15000</option>
-                    <option value="20000">20000</option>
-                    <option value="25000">25000</option>
-                    <option value="30000">30000</option>
-                    <option value="35000">35000</option>
-                    <option value="40000">40000</option>
-                    <option value="45000">45000</option>
-                    <option value="50000">50000</option>
-                </datalist>
-                
-                <label for="datosLista"> 5000  10000  15000  20000  25000  30000  35000  40000  45000  50000</label>
-                <label for="horario">Horario disponible</label>
-            </div>
+        <datalist id="listaIngresos">
+          <option value="5000">5000</option>
+          <option value="10000">10000</option>
+          <option value="15000">15000</option>
+          <option value="20000">20000</option>
+          <option value="25000">25000</option>
+          <option value="30000">30000</option>
+          <option value="35000">35000</option>
+          <option value="40000">40000</option>
+          <option value="45000">45000</option>
+          <option value="50000">50000</option>
+        </datalist>
+        <label id="listaIngresos__label" for="datosLista">5000    10000   15000   20000   25000   30000   35000   40000   45000   50000</label> 
+      </div>
+      
+      <div class="horario">
+        <label for="horario">Horario Disponible</label> <br>
+        De <input type="time" name="inicio" id="inicio">
+        A <input type="time" name="fin" id="fin">
+      </div>
 
-            <div class="horario">
-                De <input type="time" name="inicio" id="inicio">
-                A <input type="time" name="fin" id="fin">
-            </div>
-    
-            <input type="submit" name="botones" id="Enviar">
-            <input type="reset" name="botones" id="Limpiar">
-    
-            
-    
-        </form>
-    </div>
+      <div id="botones">
+        <div>
+          <input type="submit" id="botones" value="Enviar">
+          <input type="reset" id="botones" value="Limpiar">
+        </div>
+      </div>
+      <script src="/js/prac05.js"></script>
+    </form>
+  </div>
+
 </body>
 </html>
